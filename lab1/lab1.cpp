@@ -1,6 +1,5 @@
 //Bryan Kim
 //lab1.cpp
-//9/26/2022
 
 #include <iostream>
 using namespace std;
