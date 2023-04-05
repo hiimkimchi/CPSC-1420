@@ -1,15 +1,17 @@
 //Bryan Kim
 //lab2.cpp
+//This lab introduces user input and differentiates integer division and float division
 
 #include <iostream>
 #include <string>
+
 using namespace std;
 
 int main()
 {
   string word;
   int integer1, integer2, quotient, modResult;
-  double float1, float2, doubleQuotient;
+  double float1, float2, floatQuotient;
 
   cout << endl << "\nPlease input a single word: ";
   cin >> word;
@@ -27,8 +29,8 @@ int main()
 
   cout << "\nPlease input two float numbers separated by a space: ";
   cin >> float1 >> float2;
-  doubleQuotient = float1 / float2;
+  floatQuotient = float1 / float2;
   
   cout << endl << float1 << " divided by " << float2 << " is "
-       << doubleQuotient << ".\n" << endl;
+       << floatQuotient << ".\n" << endl;
 }
